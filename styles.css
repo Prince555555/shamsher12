@@ -281,3 +281,20 @@ nav {
     font-size: 1rem;
     color: #666;
 }
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 1s ease-in-out;
+    width: 100%; /* Adjust based on the number of images */
+}
+
+.carousel-images img {
+    width: 100%;
+    flex: 0 0 100%; /* Ensures each image takes up the full width of the carousel */
+}
