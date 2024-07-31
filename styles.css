@@ -13,6 +13,7 @@ header {
     background-color: #9fa110;
     color: #fff;
     padding: 10px;
+    margin-bottom : 4px;
     position: sticky;
     top: 0; /* Ensure header sticks to the top */
     z-index: 1000; /* Ensure header stays on top of other elements */
