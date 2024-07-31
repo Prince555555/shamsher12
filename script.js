@@ -47,7 +47,7 @@ document.querySelector('.next-button').addEventListener('click', () => {
 });
 
 // Auto-scroll every 3 seconds
-setInterval(autoScroll, 15000);
+setInterval(autoScroll, 5000);
 
 // Initial update
 window.addEventListener('load', updateIndicators);
