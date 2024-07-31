@@ -13,7 +13,6 @@ header {
     background-color: #9fa110;
     color: #fff;
     padding: 10px;
-    margin-bottom : 4px;
     position: sticky;
     top: 0; /* Ensure header sticks to the top */
     z-index: 1000; /* Ensure header stays on top of other elements */
@@ -32,7 +31,7 @@ nav {
 .nav-left a {
     color: #fff;
     text-decoration: none;
-    margin-right: 2%;
+    margin-right: 20px;
 }
 
 .nav-right {
@@ -45,7 +44,7 @@ nav {
     text-decoration: none;
     font-size: 22px;
     font-weight: bold;
-    margin-left: 15%;
+    margin-left: 20px;
     background: linear-gradient(to right, red, blue, green), red;
     background-clip: text;
     color: transparent;
@@ -225,18 +224,21 @@ nav {
 }
 
 .view-all-button {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
     padding: 10px 20px;
     background-color: #f4f4f4;
-    color: #333;
-    border: none;
+    color: #007bff;
+    border: solid #007bff;
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
     font-size: 0.9rem;
+    margin-left: 50%;
+    margin-top: 2%;
+}
+
+.view-all-button:hover{
+    background-color: #007bff;
+    color: #f4f4f4;
 }
 
 .project-description {
